@@ -83,7 +83,8 @@ exports.xxx = xxx
 - 而module.exports 既可以通过.的形式，也可以直接赋值
 
 ```js
-modules.exports.xxx = xxx
+module.exports.xxx = xxx
+module.exports = {}
 ```
 
 
