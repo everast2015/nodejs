@@ -56,9 +56,14 @@ nodejs 中，导出几个方法的区别
   - 函数，用来引入外部的模块
   
  - module
-  - module 代表的是当前模块本身
-  - exports 就是modules的属性
+    - module 代表的是当前模块本身
+    - exports 就是modules的属性
   
+  - filename 文件的名称
+    - 当前模块完整路径
+  
+  - dirname
+    - 当前模块所在文件夹完整路径
 
 
 
