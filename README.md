@@ -50,7 +50,7 @@
 nodejs 中，导出几个方法的区别
 
 - exports
- - 该对象用来将变量或函数暴露到外部
+  - 该对象用来将变量或函数暴露到外部
 
 - require
   - 函数，用来引入外部的模块
@@ -67,7 +67,24 @@ nodejs 中，导出几个方法的区别
 
 
 
+### module.exports 和 exports 的区别
 
+```js
+modules.exports = {
+  name: 'everast',
+  age: '18'
+}
+// 导出是所有的对象
+```
+- 通过exports只能使用.的方式来向外暴露内部变量
+```js
+exports.xxx = xxx
+```
+- 而module.exports 既可以通过.的形式，也可以直接赋值
+
+```js
+modules.exports.xxx = xxx
+```
 
 
 
